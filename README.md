@@ -64,3 +64,6 @@ The hub checks the **latest release**, compares installed versions, and prompts 
 Built for Android on the AYANEO Pocket DS.  
 Some functionality may rely on overlay permissions, accessibility services, or vendor behavior depending on the tool.
 
+I dont charge for any of my projects and make them free for the communities they are in. If you like my stuff, id appreciate a tip!
+
+https://ko-fi.com/yesitskira
