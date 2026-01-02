@@ -1,5 +1,7 @@
 # PDS Utilities
 
+Install the apk on the main repo page here.
+
 A hub-style launcher for the **AYANEO Pocket DS**. One clean “Utilities” app up front, with individual tool apps running underneath hidden from the launcher for ease of use.
 
 ## What it is
