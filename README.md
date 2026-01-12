@@ -10,11 +10,13 @@ A hub-style launcher for the **AYANEO Pocket DS**. One clean “Utilities” app
 
 PDS Utilities is a single hub app that gives you access to all of the tools I have made for the Pocket DS and it also auto updates them:
 
+
 ### *Bottom Screen Keyboard*
   - This adds a keyboard to the DS that stays on the bottom screen.
   - Has dark and light modes.
   - An option to add an a toggle to open the keyboard with a button on the DS.
   - Has alternative characters for a few other languages.
+
 
 
 ### *Brightness Sync*
@@ -23,15 +25,18 @@ PDS Utilities is a single hub app that gives you access to all of the tools I ha
   - You can still adjust the bottom screen brightness seperately with the slider in Ayawindow.
 
 
+
 ### *Refresh Rate Tool*
   - Allows you to set the top screen to a range of refresh rates 60hz, 90hz, 120hz, 144hz and 165hz.
   - As stock, the top screen defaults to 120hz at all times. This tool adds 144hz and 165hz options too.
   - 60hz is great for saving battery.
 
 
+
 ### *Second Screen Colour Corrector*
   - This tool adds an overlay to help you correct the yellow tint of the bottom screen.
   - Lets you calibrate to get the screens to match a little more closely.
+
 
 
 ## 
