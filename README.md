@@ -2,7 +2,7 @@ This is a hub-style launcher for the **AYANEO Pocket DS**. One clean “Utilitie
 
 # **Install the APK above to use!**
 
-For the best experience, install Shizuku from the play store and run it as root from AyaSettings under device and root scripts.
+---
 
 ## What tools are available?
 
