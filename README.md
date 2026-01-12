@@ -1,6 +1,6 @@
 # PDS Utilities
 
-# **Install the apk that is in the main repo above**
+# **Install the apk that is in the main repo above to use!**
 
 For the best experience, install Shizuku and run it as root from AyaSettings
 
