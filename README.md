@@ -4,7 +4,6 @@ This is a hub-style launcher for the **AYANEO Pocket DS**. One clean “Utilitie
 
 For the best experience, install Shizuku from the play store and run it as root from AyaSettings under device and root scripts.
 
----
 ## What does it do?
 
 PDS Utilities is a single hub app that gives you access to all of the tools I have made for the Pocket DS:
