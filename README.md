@@ -6,31 +6,31 @@ This is a hub-style launcher for the **AYANEO Pocket DS**. One clean “Utilitie
 
 ## What tools are available?
 
-### *Bottom Screen Keyboard*
+### *Bottom Screen Keyboard:*
   - This adds a keyboard to the DS that stays on the bottom screen.
   - Has dark and light modes.
   - An option to add an a toggle to open the keyboard with a button on the DS.
   - Has alternative characters for a few other languages.
 
-### *Split Screen Volume*
+### *Split Screen Volume:*
   - This tool lets you control the volume of the apps on each screen seperately.
   - It replaces the stock volume UI with an updated one with multiple sliders.
 
-### *Brightness Sync*
+### *Brightness Sync:*
   - This app allows you to sync the brightness of the bottom screen to the top screen.
   - Has a calibration screen to help you match the brighnesses irl.
   - You can still adjust the bottom screen brightness seperately with the slider in Ayawindow.
 
-### *Refresh Rate Tool*
+### *Refresh Rate Tool:*
   - Allows you to set the top screen to a range of refresh rates 60hz, 90hz, 120hz, 144hz and 165hz.
   - As stock, the top screen defaults to 120hz at all times. This tool adds 144hz and 165hz options too.
   - 60hz is great for saving battery.
 
-### *Bottom Screen Colour Corrector*
+### *Bottom Screen Colour Corrector:*
   - This tool adds an overlay to help you correct the yellow tint of the bottom screen.
   - Lets you calibrate to get the screens to match a little more closely.
 
-### *Bottom Screen Magnifier*
+### *Bottom Screen Magnifier:*
   - This is a tool that lets you magnify part of the top screen onto the bottom screen.
   - For games that dont make use of the bottom screen, you can magnify the minimap to the bottom.
 
