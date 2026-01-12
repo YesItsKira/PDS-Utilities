@@ -54,11 +54,11 @@ PDS Utilities uses **Shizuku** to install/update tool APKs more smoothly and alo
 If Shizuku is available and permission is granted, installs/updates can be handled silently.
 
 
-## Releases
+## Releases:
 Tool APKs are delivered via **GitHub Releases**.
 The hub checks the **latest release**, compares installed versions, and prompts updates when needed.
 
-## Compatibility
+## Compatibility:
 Built for Android on the AYANEO Pocket DS.  
 Some functionality may rely on overlay permissions, accessibility services, or vendor behavior depending on the tool.
 
