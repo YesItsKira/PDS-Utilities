@@ -34,41 +34,36 @@ For the best experience, install Shizuku from the play store and run it as root 
   - This is a tool that lets you magnify part of the top screen onto the bottom screen.
   - For games that dont make use of the bottom screen, you can magnify the minimap to the bottom.
 
-Each tool remains seperate in the background (so each app keeps full functionality without being rewritten), while the hub handles install, update, and launch.
-
 ---
+
 ## Why separate APKs?
-
 This project is intentionally designed as a **modular tool suite**:
-
-- Each tool app stays focused and independent and each can be downloaded seperately.
+- The tools remain seperate in the background, while the hub handles install, update, and launch.
+- Each tool app is modular and independent and each can be downloaded seperately.
 - Updates can ship per-tool without touching the others.
 - The hub stays simple: “download, install, launch”
 
 ## Hidden tools (launcher + Recents)
-
 The tool apps are installed normally, but are configured to be:
 - **Hidden from the launcher** (no app drawer icons)
 - **Excluded from Recents**
 
-
-## Shizuku required
+## Shizuku requirements:
 
 PDS Utilities uses **Shizuku** to install/update tool APKs more smoothly and alot of the tools themselves need Shizuku too.
 If Shizuku is available and permission is granted, installs/updates can be handled silently.
 
 
 ## Releases
-
 Tool APKs are delivered via **GitHub Releases**.
-
 The hub checks the **latest release**, compares installed versions, and prompts updates when needed.
 
 ## Compatibility
-
 Built for Android on the AYANEO Pocket DS.  
 Some functionality may rely on overlay permissions, accessibility services, or vendor behavior depending on the tool.
 
+
+## Credits:
 I dont charge for any of my projects and make them free for the communities they are in. If you like my stuff, id appreciate a tip!
 
 https://ko-fi.com/yesitskira
