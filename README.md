@@ -52,6 +52,7 @@ The tool apps are installed normally, but are configured to be:
 
 PDS Utilities uses **Shizuku** to install/update tool APKs more smoothly and alot of the tools themselves need Shizuku too.
 If Shizuku is available and permission is granted, installs/updates can be handled silently.
+You need to install Shizuku from the play store and then go to Ayasettings -> Device -> Root Script -> **Start Shizuku in root mode.**
 
 
 ## Releases:
