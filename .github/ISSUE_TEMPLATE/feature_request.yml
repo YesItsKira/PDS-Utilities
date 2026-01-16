@@ -1,0 +1,77 @@
+name: "✨ Feature request"
+description: Suggest an idea or improvement
+title: "[Feature]: "
+labels: ["enhancement"]
+assignees:
+  - YesItsKira
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion! A little detail here makes building it much faster.
+
+  - type: dropdown
+    id: tool
+    attributes:
+      label: Which tool is this for?
+      options:
+        - Hub / Launcher
+        - Keyboard
+        - Brightness Sync
+        - Refresh Rate
+        - White Balance / Colour Corrector
+        - Split Screen Volume
+        - Magnifier
+        - New tool idea
+        - Other / Not sure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - Nice-to-have
+        - Important
+        - Urgent
+    validations:
+      required: true
+
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use case
+      description: What are you trying to do? (A short story helps.)
+      placeholder: |
+        Example:
+        I'm using the Pocket DS on the go and I want to...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would you like to happen?
+      description: Describe the feature you want.
+      placeholder: "I'd like the app/tool to..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered (optional)
+      description: Any workarounds or other approaches?
+      placeholder: "I tried..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: mockups
+    attributes:
+      label: Screenshots / mockups (optional)
+      description: Drag-and-drop images here, or describe what the UI should look like.
+      placeholder: "Attach screenshots/mockups or describe the layout."
+    validations:
+      required: false

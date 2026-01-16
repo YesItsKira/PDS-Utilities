@@ -1,0 +1,85 @@
+name: "🐛 Bug report"
+description: Report something that isn't working
+title: "[Bug]: "
+labels: ["bug"]
+assignees:
+  - YesItsKira
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this! If you fill this in, I can usually reproduce it quickly.
+
+  - type: dropdown
+    id: tool
+    attributes:
+      label: Which tool is affected?
+      options:
+        - Hub / Launcher
+        - Keyboard
+        - Brightness Sync
+        - Refresh Rate
+        - White Balance / Colour Corrector
+        - Split Screen Volume
+        - Magnifier
+        - Other / Not sure
+    validations:
+      required: true
+
+  - type: input
+    id: tool_version
+    attributes:
+      label: Version number of the tool affected (if known)
+      description: If you're not sure, write "unknown".
+      placeholder: "e.g. v63 / 0.5.13"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: reproducible
+    attributes:
+      label: Can you reproduce it every time?
+      options:
+        - Always
+        - Sometimes
+        - Only once
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the steps like a recipe so I can follow them.
+      placeholder: |
+        1. Open...
+        2. Tap...
+        3. Enable...
+        4. Bug happens...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+      placeholder: "What should have happened?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+      placeholder: "What happened instead? (Include any error message text if you can.)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / screen recording (please attach as many as you can)
+      description: You can drag-and-drop images/videos straight into this box.
+      placeholder: "Attach screenshots or a short recording here."
+    validations:
+      required: false
