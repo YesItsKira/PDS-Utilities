@@ -1,0 +1,44 @@
+name: "✨ Feature request"
+description: Suggest an idea or improvement
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion! The more detail you can give, the easier it is to build.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: What’s the pain point or need?
+      placeholder: "I find it hard to..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would you like to happen?
+      description: Describe the feature you want.
+      placeholder: "I’d like the app to..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered (optional)
+      description: Any workarounds or other approaches?
+      placeholder: "I tried..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Extra context (optional)
+      description: Mockups, screenshots, links, anything helpful.
+    validations:
+      required: false
