@@ -11,6 +11,7 @@ This is a hub-style launcher for the **AYANEO Pocket DS**. One clean “Utilitie
   - Has dark and light modes.
   - An option to add an a toggle to open the keyboard with a button on the DS.
   - Has alternative characters for a few other languages.
+  - Has a pinyin Chinese toggle to enable character input.
 
 ### *Split Screen Volume:*
   - This tool lets you control the volume of the apps on each screen seperately.
