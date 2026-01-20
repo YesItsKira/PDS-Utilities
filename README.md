@@ -22,10 +22,6 @@ This is a hub-style launcher for the **AYANEO Pocket DS**. One clean “Utilitie
   - Has a calibration screen to help you match the brighnesses irl.
   - You can still adjust the bottom screen brightness seperately with the slider in Ayawindow.
 
-### *Refresh Rate Tool:*
-  - Allows you to set the top screen to a range of refresh rates 60hz, 90hz, 120hz, 144hz and 165hz.
-  - As stock, the top screen defaults to 120hz at all times. This tool adds 144hz and 165hz options too.
-  - 60hz is great for saving battery.
 
 ### *Bottom Screen Colour Corrector:*
   - This tool adds an overlay to help you correct the yellow tint of the bottom screen.
