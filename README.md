@@ -18,13 +18,13 @@ This is a hub-style launcher for the **AYANEO Pocket DS**. One clean “Utilitie
   - It replaces the stock volume UI with an updated one with multiple sliders.
 
 ### *Brightness Sync:*
-  - This app allows you to sync the brightness of the bottom screen to the top screen.
+  - This allows you to sync the brightness of the bottom screen to the top screen.
   - Has a calibration screen to help you match the brighnesses irl.
   - You can still adjust the bottom screen brightness seperately with the slider in Ayawindow.
 
 
 ### *Bottom Screen Colour Corrector:*
-  - This tool adds an overlay to help you correct the yellow tint of the bottom screen.
+  - This adds an overlay to help you correct the yellow tint of the bottom screen.
   - Lets you calibrate to get the screens to match a little more closely.
 
 ### *Bottom Screen Magnifier:*
@@ -38,11 +38,10 @@ This project is intentionally designed as a **modular tool suite**:
 - The tools remain seperate in the background, while the hub handles install, update, and launch.
 - Each tool app is modular and independent and each can be downloaded seperately.
 - Updates can ship per-tool without touching the others.
-- The hub stays simple: “download, install, launch”
 
 ## Hidden tools (launcher + Recents)
 The tool apps are installed normally, but are configured to be:
-- **Hidden from the launcher** (no app drawer icons)
+- **Hidden from the launcher** 
 - **Excluded from Recents**
 
 ## Shizuku requirements:
@@ -53,8 +52,7 @@ You need to install Shizuku from the play store and then go to Ayasettings -> De
 
 
 ## Releases:
-Tool APKs are delivered via **GitHub Releases**.
-The hub checks the **latest release**, compares installed versions, and prompts updates when needed.
+Tool updates are completely automated.
 
 ## Compatibility:
 Built for Android on the AYANEO Pocket DS.  
